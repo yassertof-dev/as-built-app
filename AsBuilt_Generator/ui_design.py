@@ -15,7 +15,7 @@ from PyQt6.QtWidgets import (
     QListWidget, QListWidgetItem, QProgressBar, QStatusBar, QFormLayout,
     QFileDialog, QMessageBox, QScrollArea, QFrame
 )
-from PyQt6.QtCore import Qt, QThread, pyqtSignal, QSize
+from PyQt6.QtCore import Qt, QThread, pyqtSignal, QSize, QObject
 from PyQt6.QtGui import QFont, QColor, QPalette
 
 from core_logic import DataManager, TextProcessor, PDFCreator
